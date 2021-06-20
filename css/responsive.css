@@ -17,7 +17,7 @@
  
    @media screen and (max-width: 992px){
      main {
-         padding: 150px 0;
+         padding: 150px 0 0 0;
      }
  
      .navbar {
@@ -45,6 +45,15 @@
      .nav_item {
        height: 100%;
      }
+
+     .btn a {
+        display: none;
+    }
+    .btn i {
+        display: block;
+        padding: 0px 15px;
+        color: white;
+    }
  
      .lodging {
          margin: 35px 0;
@@ -53,16 +62,17 @@
          justify-content: center;
          
      }
-     .size-lodging {
+     .size_lodging {
          margin-right: 0;
          background-color: white;
+         flex-direction: column;
      }
      .size-popular {
          margin-left: 0;
      }
  
  
-     .container {
+     .container_lodging {
          display: flex;
          flex-direction: column;
  
@@ -74,7 +84,7 @@
      }
  
  
-     .cards {
+     .cards_lodging {
          width: 100%;
      }
      .card-info1 h3 {
@@ -85,44 +95,29 @@
      .activity {
          display: flex;
          flex-direction: column;
+         margin: 0 25px;
      }
-     .bloc1 {
+     .container_activity_1, .container_activity_2 {
          width: 100%;
          display: flex;
          flex-direction: column;
          align-items: center;
      }
- 
- 
-     .bloc2 {
-         width: 100%;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-        
+     .cards_activity_1 {
+         width:100%;
+         margin: 25px 15px;
      }
- 
-     .bloc3 {
+
+     .bloc_cards_activity {
          width: 100%;
      }
-     .bloc4 {
-         width: 100%;
-     }
-     .card-image10, .card-image11, .card-image12, .card-image13, .card-image14, .card-image15 {
+
+     .image_activity_1, .image_activity_2, .image_activity_3, .image_activity_4, .image_activity_5, .image_activity_6 {
          height: 150px;
          
      }    
  
-     .cards3, .cards2 {
-         width: 97%;
-         
-     }
-     .cards4 {
-         width: 97%;
-     }
-     .cards5 {
-         width: 97%;
-     }
+     
      
  
      .footerbloc {
@@ -130,7 +125,7 @@
          height: auto;
          display: flex;
          flex-direction: column;
-         justify-content: flex-start;
+        
         
      }
  
