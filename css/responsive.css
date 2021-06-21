@@ -1,60 +1,69 @@
 /*************************
         MEDIA QUERIES
    *************************/
+@media screen and (max-width: 1410px) {
+    .lodging {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .size_lodging {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    .size-popular {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .container_popular {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    .cards_lodging {
+    width: 48%
+    }
+
+    .cards_popular {
+        width: 100%;
+        margin-right: 15px;
+    }
+}
+
  /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
- @media screen and (max-width: 1280px){}
-
- /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
- @media all and (min-width: 1024px) and (max-width: 1280px){}
- 
- /* Sur les téléviseurs */
- @media tv {}
- 
- /* Sur tous types d'écrans orientés verticalement */
- @media all and (orientation: portrait) {}
- 
- 
- 
-   @media screen and (max-width: 992px){
-     main {
-         padding: 150px 0 0 0;
-     }
- 
-     .navbar {
-       width: 100%;
-       height: 50px;
-       position: absolute;
-       top: 70px;
-       left: 0;
-       background-color: white;
-     }
- 
-     .nav_item {
-         border-bottom: 3px solid #e5e2e2;
-         border-top: none;
-     }
-     .nav_item:hover {
-     border-bottom: 3px solid #0065FC;
-     border-top: none;
-     }
-     .nav_item.active{
-     border-bottom: 3px solid #0065FC;
-     border-top: none;
-     }
-     .navbar_nav,
-     .nav_item {
-       height: 100%;
-     }
-
-     .btn a {
-        display: none;
-    }
-    .btn i {
-        display: block;
-        padding: 0px 15px;
-        color: white;
+@media all and (max-width: 1200px){
+    .lodging {
+        display: flex;
+        flex-direction: column;
     }
 
+    .container_popular {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    .activity {
+        display: flex;
+        flex-direction: column;
+    }
+    .container_activity_1, .container_activity_2 {
+        width: 100%;
+    }
+    .container_activity_2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    
     .filter_text_icon {
         margin-right: 10px;
     }
@@ -75,91 +84,178 @@
     .fa-info {
         font-size: 15px;
     }
- 
-     .lodging {
-         margin: 35px 0;
-         display: flex;
-         flex-direction: column-reverse;
-         justify-content: center;
-         
-     }
-     .size_lodging {
-         margin-right: 0;
-         background-color: white;
-         flex-direction: column;
-     }
-     .size-popular {
-         margin-left: 0;
-     }
- 
- 
-     .container_lodging {
-         display: flex;
-         flex-direction: column;
- 
-     }
- 
 
- 
-     .cards_lodging {
-         width: 100%;
-     }
-     .card-info1 h3 {
-         font-size: 15px;
- 
-     }
-     
-     .activity {
-         display: flex;
-         flex-direction: column;
-         
-     }
-     .container_activity_1, .container_activity_2 {
-         width: 100%;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-     }
-     .cards_activity_1 {
-         width:100%;
-         margin: 25px 15px;
-     }
+    .size_lodging {
+        margin-right: 0;
+    
+    }
+    .container_popular {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .size-popular {
+        margin-left: 0;
+        padding-bottom: 25px;
+    }
 
-     .bloc_cards_activity {
-         width: 100%;
-     }
+    .activity {
+        display: flex;
+        flex-direction: column;
+    }
+    .container_activity_1, .container_activity_2 {
+        width: 100%;
+    }
+    .container_activity_2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
-     .image_activity_1, .image_activity_2, .image_activity_3, .image_activity_4, .image_activity_5, .image_activity_6 {
-         height: 150px;
-         
-     }    
- 
-     
-     
- 
-     .footerbloc {
+
+
+
+    
+    .footerbloc {
         margin-top: 25px;
-         height: auto;
-         display: flex;
-         flex-direction: column;
+        height: auto;
+        display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         padding: 15px;
-     }
- 
-     .propos, .hebergement, .assistance {
-         width: 100%;
-       padding: 0;
-     }
+    }
 
-     .hebergement, .assistance {
-         justify-content: center;
-     }
- }
+    .propos, .hebergement, .assistance {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hebergement, .assistance {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    main {
+        padding: 150px 0 0 0;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: white;
+    }
+
+    .nav_item {
+        border-bottom: 3px solid #e5e2e2;
+        border-top: none;
+    }
+    .nav_item:hover {
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+    }
+    .nav_item.active{
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+    }
+    .navbar_nav,
+    .nav_item {
+        height: 100%;
+    }
+
+    .btn a {
+        display: none;
+    }
+    .btn i {
+        display: block;
+        padding: 0px 15px;
+        color: white;
+    }
+    .filter_text_icon {
+        margin-top: 10px;
+    }
+
+    .lodging {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .size_lodging {
+        margin-right: 0;
+        background-color: transparent;
+        flex-direction: column;
+    }
+    .size-popular {
+        border-radius: 0;
+    }
+    .cards_lodging {
+        width: 100%;
+    }
+    .card-info1 h3 {
+        font-size: 15px;
+
+    }
+    #activity {
+        margin-top: 25px;
+    }
+    .activity {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container_activity_1, .container_activity_2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards_activity_1 {
+        width:100%;
+        margin: 25px 15px;
+    }
+    .cards_activity_2 {
+        margin: 25px 0;
+    }
+
+    .bloc_cards_activity {
+        width: 100%;
+    }
+
+    .image_activity_1, .image_activity_2, .image_activity_3, .image_activity_4, .image_activity_5, .image_activity_6 {
+        height: 150px;
+        
+    }    
+
+
+    .footerbloc {
+        margin-top: 25px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .propos, .hebergement, .assistance {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hebergement, .assistance {
+        justify-content: center;
+    }
+}
  
+ /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+ @media all and (min-width: 1024px) and (max-width: 1280px){}
  
- @media screen and (max-width: 768px) {
-    
+ /* Sur les téléviseurs */
+ @media tv {}
  
- 
- }
+ /* Sur tous types d'écrans orientés verticalement */
+ @media all and (orientation: portrait) {}
