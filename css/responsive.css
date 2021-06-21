@@ -54,6 +54,27 @@
         padding: 0px 15px;
         color: white;
     }
+
+    .filter_text_icon {
+        margin-right: 10px;
+    }
+    .filter_text {
+        font-size: 15px;
+    }
+
+    .info p {
+        font-size: 15px;
+    }
+
+    .info_icon {
+        width: 51px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fa-info {
+        font-size: 15px;
+    }
  
      .lodging {
          margin: 35px 0;
@@ -78,11 +99,7 @@
  
      }
  
-     .filter {
-         display: flex;
-         flex-wrap: wrap;
-     }
- 
+
  
      .cards_lodging {
          width: 100%;
@@ -95,7 +112,7 @@
      .activity {
          display: flex;
          flex-direction: column;
-         margin: 0 25px;
+         
      }
      .container_activity_1, .container_activity_2 {
          width: 100%;
@@ -125,13 +142,18 @@
          height: auto;
          display: flex;
          flex-direction: column;
-        
-        
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
      }
  
      .propos, .hebergement, .assistance {
          width: 100%;
-         padding: 0;
+       padding: 0;
+     }
+
+     .hebergement, .assistance {
+         justify-content: center;
      }
  }
  
