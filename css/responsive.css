@@ -93,6 +93,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: 0;
     }
     .size-popular {
         margin-left: 0;
@@ -111,28 +112,6 @@
         flex-direction: row-reverse;
     }
 
-
-
-
-    
-    .footerbloc {
-        margin-top: 25px;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-    }
-
-    .propos, .hebergement, .assistance {
-        width: 100%;
-        padding: 0;
-    }
-
-    .hebergement, .assistance {
-        justify-content: center;
-    }
 }
 
 
@@ -251,11 +230,9 @@
     }
 }
 
-@media screen and (max-width: 354px) {
-    .search_lodging {
-        height: 35px;
-        max-width: 140px;
-        font-size: 15px;
+@media screen and (max-width: 360px) {
+    .search {
+        display: none;
     }
     .icon_map {
         width:35px;
@@ -265,3 +242,4 @@
         padding: 0 10px;
     }
 }
+
