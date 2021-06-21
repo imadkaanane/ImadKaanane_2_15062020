@@ -231,7 +231,7 @@ h1 {
 .size_lodging {
     flex: 2;
     margin-right: 15px;
-    background-color: #e5e2e2;
+    background-color: #F2F2F2;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -322,7 +322,7 @@ h1 {
 .size-popular {
     flex: 1;
     margin-left: 15px;
-    background-color: #e5e2e2;
+    background-color: #F2F2F2;
     border-radius: 10px;
 
     padding: 25px 15px;
@@ -493,7 +493,7 @@ h1 {
 .footerbloc {
     height: 250px;
     margin-top: 100px;
-    background-color: #e5e2e2;
+    background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
