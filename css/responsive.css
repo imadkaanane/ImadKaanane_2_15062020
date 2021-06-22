@@ -2,6 +2,7 @@
         MEDIA QUERIES
    *************************/
 @media screen and (max-width: 1410px) {
+
     .lodging {
         display: flex;
         flex-direction: column;
@@ -36,6 +37,14 @@
 
  /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
 @media all and (max-width: 1200px){
+
+    main {
+        margin-left: 0;
+    }
+
+    .brand {
+        margin-left: 0;
+    }
     .lodging {
         display: flex;
         flex-direction: column;
@@ -59,7 +68,9 @@
         display: flex;
         flex-direction: row-reverse;
     }
-
+    .footerbloc {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -93,7 +104,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 0;
     }
     .size-popular {
         margin-left: 0;
@@ -106,6 +116,7 @@
     }
     .container_activity_1, .container_activity_2 {
         width: 100%;
+
     }
     .container_activity_2 {
         display: flex;
@@ -120,7 +131,10 @@
     main {
         padding: 150px 0 0 0;
     }
-
+    
+    header {
+        padding: 0;
+    }
     .navbar {
         width: 100%;
         height: 50px;
@@ -145,6 +159,9 @@
     .navbar_nav,
     .nav_item {
         height: 100%;
+    }
+    #auth_container {
+        margin-right: 0;
     }
 
     .btn a {
@@ -209,7 +226,6 @@
         
     }    
 
-
     .footerbloc {
         margin-top: 25px;
         height: auto;
@@ -228,6 +244,8 @@
     .hebergement, .assistance {
         justify-content: center;
     }
+
+   
 }
 
 @media screen and (max-width: 360px) {

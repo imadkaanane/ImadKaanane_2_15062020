@@ -13,7 +13,9 @@ body {
 
 a {
 	text-decoration: none;
+    color: #212529;
 }
+
 
 header {
     width: 100%;
@@ -31,6 +33,7 @@ header {
    *******************/
 .brand {
     padding: 0px 15px;
+    margin-left: 25px;
 }
 
 .navbar{
@@ -81,6 +84,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+ 
 }
 #auth_container a {
       color:#0065FC;
@@ -92,7 +96,8 @@ header {
 *******************/
 
 main {
-    padding-top: 100px
+    padding-top: 100px;
+    margin-left: 25px;
 }
 
 .search_filter {
@@ -249,6 +254,11 @@ h1 {
     width: 32%;
     padding: 15px 0;
     border-radius: 20px;
+    
+}
+
+.cards_lodging:hover {  
+    transform: translate3d(4px, 4px, 3em);
 }
 
 .card_info_lodging {
@@ -258,6 +268,7 @@ h1 {
     justify-content: center;
    
 }
+
 
 .card_lodging_item {
     background-color: white;
@@ -340,8 +351,14 @@ h1 {
     justify-content: space-between;
     padding: 15px 0;
 }
+
+
 .cards_popular {
     padding: 15px 0;
+}
+
+.cards_popular:hover {  
+    transform: translate3d(4px, 4px, 3em);
 }
 
 .fa-chart-line {
@@ -405,6 +422,7 @@ h1 {
 }
 
 .container_activity_1, .container_activity_2{
+    margin: 15px 0;
     width: 48%;
     display: flex;
     justify-content: space-between;
@@ -417,17 +435,20 @@ h1 {
     justify-content: space-between;
 }
 
+.cards_activity_1:hover , .cards_activity_2:hover {
+    transform: translate3d(4px, 4px, 3em);
+    cursor: pointer;
+} 
+
 .cards_activity_1 {
     width: 46%;
     border-radius: 20px;
-    border: 4px solid transparent;
     box-shadow: 0px 0px 10px 0px #0000002e;
 }
 
 .cards_activity_2 {
     width: 100%;
     border-radius: 20px;
-    border: 4px solid transparent;
     box-shadow: 0px 0px 10px 0px #0000002e;
 }
  
@@ -435,6 +456,9 @@ h1 {
     height: 60px;
     display: flex;
     align-items: center;
+}
+.card_title_activity {
+    padding-left: 15px;
 }
 
 .image_activity_1, .image_activity_2 {
@@ -485,22 +509,26 @@ h1 {
     background-image: url('../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
 }  
 
+.card_title_activity {
 
+}
 /*******************
    Footer
 **********************/
+footer {
+    background-color: #F2F2F2;
+}
 
 .footerbloc {
     height: 250px;
     margin-top: 100px;
-    background-color: #F2F2F2;
+    margin-left: 25px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .propos, .hebergement, .assistance{
-    width: 27%;
+    width: 30%;
     height: 150px;
     padding: 50px 15px;
     display: flex;
