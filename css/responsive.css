@@ -73,7 +73,7 @@
     }
 }
 
-@media screen and (max-width: 1024px){
+@media all and (max-width: 1024px){
     
     .filter_text_icon {
         margin-right: 10px;
@@ -126,7 +126,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
 
     main {
         padding: 150px 0 0 0;
@@ -248,7 +248,7 @@
    
 }
 
-@media screen and (max-width: 360px) {
+@media all and (max-width: 360px) {
     .search {
         display: none;
     }
