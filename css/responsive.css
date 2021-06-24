@@ -26,7 +26,7 @@
     }
 
     .cards_lodging {
-    width: 48%
+        width: 48%
     }
 
     .cards_popular {
@@ -133,13 +133,14 @@
     }
     
     header {
-        padding: 0;
+        padding: 15px 0;
+        
     }
     .navbar {
         width: 100%;
-        height: 50px;
+        height: 60px;
         position: absolute;
-        top: 70px;
+        top: 60px;
         left: 0;
         background-color: white;
     }
@@ -195,6 +196,14 @@
         font-size: 15px;
 
     }
+    .container_popular {
+        padding: 0;
+    }
+    .cards_popular {
+       
+        margin-right: 0;
+    }
+
     #activity {
         margin-top: 25px;
     }
