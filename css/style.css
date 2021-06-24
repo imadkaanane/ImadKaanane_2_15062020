@@ -24,6 +24,7 @@ header {
     position: fixed;
     z-index: 1;
     background-color: white;
+  
 }
 
 .header {
@@ -107,7 +108,7 @@ main {
 }
 
 .search_filter {
-    margin:0 15px;
+    margin: 0 15px;
 }
 
 h1 {
@@ -115,7 +116,8 @@ h1 {
 }
 
 .search_filter p {
-    font-weight: 900;
+    
+    font-weight: bold;
     font-size: 16px;
     color: #6c757d;
 }
@@ -233,8 +235,8 @@ h1 {
     hebergement
 *******************/
 
+
 .lodging {
-    margin: 35px 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -334,6 +336,10 @@ h1 {
 
 .star_grey {  
     color: #e5e2e2; 
+}
+
+.price {
+    font-weight: bold;
 }
 
 .size-popular {
