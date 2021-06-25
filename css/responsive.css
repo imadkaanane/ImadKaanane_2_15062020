@@ -76,9 +76,7 @@
 
 @media all and (max-width: 1024px){
     
-    .filter_text_icon {
-        margin-right: 10px;
-    }
+
     .filter_text {
         font-size: 15px;
     }
@@ -88,10 +86,9 @@
     }
 
     .info_icon {
+        margin-right: 0;
         width: 51px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
     }
     .fa-info {
         font-size: 15px;
