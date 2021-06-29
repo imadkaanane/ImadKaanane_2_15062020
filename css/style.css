@@ -28,7 +28,7 @@ header {
 }
 
 .header {
-    max-width: 1500px;
+    max-width: 1440px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -38,10 +38,6 @@ header {
   /*******************
      BARRE DE NAVIGATION
    *******************/
-.brand {
-    padding: 0px 15px;
-
-}
 
 .navbar{
     margin-left: auto;
@@ -102,21 +98,17 @@ header {
 *******************/
 
 main {
-    padding-top: 100px;
-    max-width: 1500px;
     margin: auto;
+    padding: 100px 15px;
+    max-width: 1440px;
 }
 
-.search_filter {
-    margin: 0 15px;
-}
 
 h1 {
     margin-bottom: 15px;
 }
 
 .search_filter p {
-    
     font-weight: bold;
     font-size: 16px;
     color: #6c757d;
@@ -137,19 +129,18 @@ h1 {
     align-items: center;
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
-    border: 2px solid #e5e2e2;
 }
 
-.search {
-    border: 2px solid #e5e2e2;
-}
 
 .search_lodging {
     height: 50px;
+    padding: 0 20px;
     border: none;
-    text-align: center;
+    display: flex;
+    align-items: center;
     font-size: 18px;
-    color: black; 
+    font-weight: bold;
+    color: black;
 }
 .btn {
     display: flex;
@@ -158,11 +149,12 @@ h1 {
     background-color: #0065FC;
     border-radius:0px 10px 10px 0px;
 }
+
 .btn a {
     padding: 0px 15px;
     color: white;
-
 }
+
 .btn i {
     display: none;
 }
@@ -170,19 +162,22 @@ h1 {
 .data_filter {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .filter {
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
+    margin-top: 15px;  
 }
 
 .filter_title {
     margin-right: 25px;
     display: flex;
     align-items: center;
+    margin-top: 15px;  
 }
+
 .filter_text_icon {
     margin-right: 15px;
     display: flex;
@@ -192,12 +187,17 @@ h1 {
     border: 2px solid #e5e2e2;
     border-radius: 25px;
 }
+
+.filter_text_icon:hover {
+    transform: scale(1.03);
+}
  
 .filter_icon {
     padding: 15px;
     background-color:  #DEEBFF;
     border-radius: 50px;
 }
+
 .filter_text {
     display: flex;
     align-items: center;
@@ -215,8 +215,8 @@ h1 {
 
 .info_icon {
     margin-right: 15px;
-
 }
+
 .info p {
     padding-top : 5px;
 }
@@ -236,7 +236,7 @@ h1 {
 *******************/
 
 
-.lodging {
+#lodging {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -246,9 +246,10 @@ h1 {
     flex: 2;
     margin-right: 15px;
     background-color: #F2F2F2;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 35px 15px;
 }
 
@@ -263,7 +264,6 @@ h1 {
     width: 32%;
     padding: 15px 0;
     border-radius: 20px;
-    
 }
 
 .cards_lodging:hover {  
@@ -271,12 +271,13 @@ h1 {
 }
 
 .card_info_lodging {
-    height: 100px;
+    width: 100%;
+    height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
 }
+
 
 
 .card_lodging_item {
@@ -292,7 +293,7 @@ h1 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 180px;
+    height: 170px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -320,16 +321,16 @@ h1 {
     background-image: url('../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
 }
 .card_title_lodging, .card_title_popular {
-    padding: 5px 10px;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 18px;
     font-weight: bold;
 }
 .card_text_lodging, .card_text_popular {
-    padding: 5px 10px;
+    padding: 5px;
     font-size: 15px;
 }
 .star {
-    padding: 5px 10px;
+    padding: 5px;
 }
 .star_blue {
     color: #0065FC;
@@ -347,8 +348,7 @@ h1 {
     flex: 1;
     margin-left: 15px;
     background-color: #F2F2F2;
-    border-radius: 10px;
-
+    border-radius: 15px;
     padding: 25px 15px;
 }
 
@@ -393,7 +393,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    padding: 5px 10px;
 }
 
 .image_popular_1, .image_popular_2, .image_popular_3 {
@@ -425,24 +425,23 @@ h1 {
 *******************/
 
 #activity {
-    margin: 60px 15px;
+    margin-top: 70px;
 }
 
 .activity {
-    margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
 
 .container_activity_1, .container_activity_2{
-    margin-top: 35px;
+    margin-top: 25px;
     width: 49%;
     display: flex;
     justify-content: space-between;
 }
 
 .bloc_cards_activity {
-    width: 50%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -454,7 +453,7 @@ h1 {
 } 
 
 .cards_activity_1 {
-    width: 46%;
+    width: 48%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px #0000002e;
 }
@@ -484,7 +483,6 @@ h1 {
 
 .image_activity_1 {
     background-image: url('../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
-
 } 
 
 .image_activity_2 {
@@ -533,7 +531,7 @@ footer {
 .footerbloc {
     height: 250px;
     margin-top: 100px;
-    max-width: 1500px;
+    max-width: 1440px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -542,7 +540,7 @@ footer {
 .propos, .hebergement, .assistance{
     width: 30%;
     height: 150px;
-    padding: 50px 15px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
 }
