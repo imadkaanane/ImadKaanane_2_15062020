@@ -4,9 +4,9 @@
 <head>
   <!-- les META essentielles -->
   <meta charset="utf-8" />
-  <meta name="description" content="Petite description de ma page que l'on va retrouver affiché dans Google" />
+  <meta name="description" content="Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance." />
   <meta name="keywords" content="HTML, CSS" />
-  <meta name="author" content="Imad Kaanane" />
+  <meta name="author" content="Réservia" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>Réservia</title>
@@ -27,7 +27,7 @@
   <!-- HEADER ************************************************************************ -->
   <header>
     <div class="header">
-      <a href="#" class="brand"><img src="images/logo/Reservia.svg" alt=""></a>
+      <a href="#" class="brand"><img src="images/logo/Reservia.svg" alt="logo"></a>
       <nav class="navbar">
         <ul class="navbar_nav">
           <li class="nav_item active"><a class="nav_link active" href="#lodging"> Hébergements </a></li>
@@ -46,7 +46,7 @@
       <p>en plein centre ville ou en plein nature</p> 
       <div class="localisation">
           <div class="icon_map"><i class="fas fa-map-marker-alt"></i></div>
-          <div class="search"><input class="search_lodging" type="search" placeholder="Marseille , France" /></div>
+          <div class="search_lodging" >Marseille, France</div>
           <div class="btn">
             <a href="#">Rechercher</a>
             <i class="fas fa-search"></i>
@@ -55,10 +55,10 @@
       <div class="data_filter">
         <div class="filter_title"><h3>Filtres</h3></div> 
         <div class="filter"> 
-            <div class="filter_text_icon"><i class="fas fa-money-bill-wave filter_icon"></i><div class="filter_text">Economique</div></div>
-            <div class="filter_text_icon"><i class="fas fa-child filter_icon"></i><div class="filter_text">Familliale</div></div>
-            <div class="filter_text_icon"><i class="fas fa-heart filter_icon"></i><div class="filter_text">Romantique</div></div>
-            <div class="filter_text_icon"><i class="fas fa-dog filter_icon"></i><div class="filter_text">Animaux Autorisés</div></div>
+            <a class="filter_text_icon" href=""><i class="fas fa-money-bill-wave filter_icon"></i><div class="filter_text">Economique</div></a>
+            <a class="filter_text_icon" href="" ><i class="fas fa-child filter_icon"></i><div class="filter_text">Familliale</div></a>
+            <a class="filter_text_icon" href=""><i class="fas fa-heart filter_icon"></i><div class="filter_text">Romantique</div></a>
+            <a class="filter_text_icon" href=""><i class="fas fa-dog filter_icon"></i><div class="filter_text">Animaux Autorisés</div></a>
         </div>  
       </div> 
       <div class="info">
@@ -69,13 +69,13 @@
 
     <!-- Hebergement *************************************************************************-->   
  
-    <section id="lodging" class="lodging" >
+    <section id="lodging"  >
       <div class="size_lodging">
         <h3 class="title_lodging">Hébergements à Marseille</h3>
         <div class="container_lodging">
           <a class="cards_lodging" href="">
             <div class="card_lodging_item">
-              <div class="image_lodging1">
+              <div class="image_lodging1" >
               </div>
               <div class="card_info_lodging">
                 <h3 class="card_title_lodging">Auberge de la cannebière</h3>
@@ -241,13 +241,14 @@
               </div>
             </div>
           </a>
-
         </div>
       </div>   
-    
     </section>
+
+    <!-- Activités ****************************************************************************-->
+    
     <section id="activity" >
-      <h2>Activités à Marseille</h2>
+      <h3>Activités à Marseille</h3>
       <div class="activity">
         <div class="container_activity_1">
           <a class="cards_activity_1" href="">
@@ -255,8 +256,7 @@
               <div class="image_activity_1">
               </div>
               <div class="card_activity_info">
-                <h3 class="card_title_activity">Vieux port</h3>
-                  
+                <h3 class="card_title_activity">Vieux port</h3> 
               </div>
             </div>
           </a>
@@ -266,8 +266,7 @@
                 <div class="image_activity_3">
                 </div>
                 <div class="card_activity_info">
-                  <h3 class="card_title_activity">Fort de Pomègues</h3>
-                    
+                  <h3 class="card_title_activity">Fort de Pomègues</h3>   
                 </div>
               </div>
             </a>
@@ -276,8 +275,7 @@
                 <div class="image_activity_5">
                 </div>
                 <div class="card_activity_info">
-                  <h3 class="card_title_activity">Île du Friout</h3>
-                    
+                  <h3 class="card_title_activity">Île du Friout</h3>   
                 </div>
               </div>
             </a>
@@ -289,8 +287,7 @@
               <div class="image_activity_2">
               </div>
               <div class="card_activity_info">
-                <h3 class="card_title_activity">Parc National des Calanques</h3>
-                  
+                <h3 class="card_title_activity">Parc National des Calanques</h3>    
               </div>
             </div>
           </a>
@@ -300,8 +297,7 @@
                 <div class="image_activity_4">
                 </div>
                 <div class="card_activity_info">
-                  <h3 class="card_title_activity">Notre Dame-de-la-garde</h3>
-                    
+                  <h3 class="card_title_activity">Notre Dame-de-la-garde</h3>    
                 </div>
               </div>
             </a>
@@ -310,8 +306,7 @@
                 <div class="image_activity_6">
                 </div>
                 <div class="card_activity_info">
-                  <h3 class="card_title_activity">Parc Longchamps</h3>
-                    
+                  <h3 class="card_title_activity">Parc Longchamps</h3>   
                 </div>
               </div>
             </a>
@@ -339,8 +334,7 @@
         <p>Centre d'aide</p>
         <p>Nous contacter</p>
       </div>
-    </div>  
-    
+    </div>   
   </footer>
 </body>
 </html>
