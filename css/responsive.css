@@ -1,61 +1,41 @@
 /*************************
         MEDIA QUERIES
    *************************/
-@media screen and (max-width: 1410px) {
 
-    .lodging {
+@media all and (max-width: 1484px) {
+    .header, .footerbloc {
+        padding-left: 15px;
+    }
+}   
+
+ /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media all and (max-width: 1280px){
+
+    #lodging {
         display: flex;
         flex-direction: column;
     }
 
+
     .size_lodging {
         margin-right: 0;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     .size-popular {
         margin-left: 0;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     .container_popular {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
-        padding: 0 15px;
-    }
-
-    .cards_lodging {
-        width: 48%
     }
 
     .cards_popular {
         width: 100%;
         margin-right: 15px;
-    }
-}
-
- /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
-@media all and (max-width: 1200px){
-
-    main {
-        margin-left: 0;
-    }
-
-    .brand {
-        margin-left: 0;
-    }
-    .lodging {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container_popular {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 15px;
     }
 
     .activity {
@@ -69,9 +49,7 @@
         display: flex;
         flex-direction: row-reverse;
     }
-    .footerbloc {
-        margin-left: 0;
-    }
+
 }
 
 @media all and (max-width: 1024px){
@@ -79,6 +57,9 @@
 
     .filter_text {
         font-size: 15px;
+    }
+    .filter_text_icon {
+        margin-top: 10px;
     }
 
     .info p {
@@ -98,6 +79,11 @@
         margin-right: 0;
     
     }
+
+    .cards_lodging {
+        width: 48%;
+    }
+
     .container_popular {
         display: flex;
         flex-direction: column;
@@ -163,24 +149,32 @@
         margin-right: 0;
     }
 
+    .search_filter {
+        padding: 0 0 0 15px;
+    }
+
+    .search_lodging {
+        border: none; 
+    }
+
+    .btn {
+        border-radius: 15px;
+    }
     .btn a {
         display: none;
     }
     .btn i {
         display: block;
-        padding: 0px 15px;
+        padding: 15px 15px;
         color: white;
-    }
-
-    .filter_text_icon {
-        margin-top: 10px;
+        font-size: 20px;
     }
 
     .info_icon {
         margin-right: 5px;
     }
 
-    .lodging {
+    #lodging {
         flex-direction: column-reverse;
         margin: 0;
         margin-top: 15px;
@@ -204,12 +198,12 @@
         padding: 0;
     }
     .cards_popular {
-       
         margin-right: 0;
     }
 
     #activity {
         margin-top: 25px;
+        padding: 0 15px;
     }
     .activity {
         display: flex;
@@ -246,7 +240,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
+        padding-top: 15px;
     }
 
     .propos, .hebergement, .assistance {
@@ -262,7 +256,7 @@
 }
 
 @media all and (max-width: 360px) {
-    .search {
+    .search_lodging {
         display: none;
     }
     .icon_map {
