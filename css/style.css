@@ -288,7 +288,7 @@ h1 {
 
 .card_lodging_item:hover {
     transform: scale(1.03);
-    box-shadow: 4px 4px 16px #0000004e;
+    box-shadow: 4px 4px 16px #0000007e;
 
 }
 
@@ -375,7 +375,7 @@ h1 {
 }
 
 .cards_popular:hover {  
-    transform: scale(1.03);
+    transform: scale(1);
 }
 
 .fa-chart-line {
@@ -395,7 +395,7 @@ h1 {
 
 .card_popular_item:hover {
     transform: scale(1.03);
-    box-shadow: 4px 4px 16px #0000004e;
+    box-shadow: 4px 4px 16px #0000007e;
 
 }
 .card_info_popular {
@@ -460,7 +460,7 @@ h1 {
 .cards_activity_1:hover , .cards_activity_2:hover {
     transform: scale(1.03);
     cursor: pointer;
-    box-shadow: 4px 4px 16px #0000004e;
+    box-shadow: 4px 4px 16px #0000007e;
 } 
 
 .cards_activity_1 {
