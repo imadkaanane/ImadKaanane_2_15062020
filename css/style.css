@@ -16,7 +16,10 @@ a {
 	text-decoration: none;
     color: #212529;
 }
-
+ 
+  /*******************
+     BARRE DE NAVIGATION
+   *******************/
 
 header {
     width: 100%;
@@ -24,7 +27,6 @@ header {
     position: fixed;
     z-index: 1;
     background-color: white;
-  
 }
 
 .header {
@@ -33,11 +35,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-  
-  /*******************
-     BARRE DE NAVIGATION
-   *******************/
+}   
 
 .navbar{
     margin-left: auto;
@@ -60,11 +58,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-.nav_item:hover {
-    border-top: 3px solid #0065FC;
-}
-
-.nav_item.active{
+.nav_item.active, .nav_item:hover {
     border-top: 3px solid #0065FC;
 }
 
@@ -73,12 +67,8 @@ header {
 	font-size: 15px;
 }
 
-.nav_link.active {
+.nav_link.activ,.nav_link:hover {
      color: #0065FC;
-}
-
-.nav_link:hover {
-    color: #0065FC;
 }
   
 #auth_container {
@@ -243,6 +233,36 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.card_title_lodging, .card_title_popular {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card_text_lodging, .card_text_popular {
+    padding: 5px;
+    font-size: 15px;
+}
+.star {
+    padding: 5px;
+}
+.star_blue {
+    color: #0065FC;
+}
+
+.star_grey {  
+    color: #e5e2e2; 
+}
+
+.price {
+    font-weight: bold;
+}
+
+.fa-chart-line {
+    font-size: 25px;
+}
+
+
 .size_lodging {
     flex: 2;
     margin-right: 15px;
@@ -292,6 +312,8 @@ h1 {
 
 }
 
+
+
 .image_lodging1, .image_lodging2, .image_lodging3,.image_lodging4,
 .image_lodging5, .image_lodging6 {
     background-size: cover;
@@ -324,29 +346,6 @@ h1 {
 .image_lodging6 {
     background-image: url('../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
 }
-.card_title_lodging, .card_title_popular {
-    padding: 5px;
-    font-size: 18px;
-    font-weight: bold;
-}
-.card_text_lodging, .card_text_popular {
-    padding: 5px;
-    font-size: 15px;
-}
-.star {
-    padding: 5px;
-}
-.star_blue {
-    color: #0065FC;
-}
-
-.star_grey {  
-    color: #e5e2e2; 
-}
-
-.price {
-    font-weight: bold;
-}
 
 .size-popular {
     flex: 1;
@@ -376,10 +375,7 @@ h1 {
 
 .cards_popular:hover {  
     transform: scale(1);
-}
-
-.fa-chart-line {
-    font-size: 25px;
+    box-shadow: 4px 4px 16px #0000007e;
 }
 
 .card_popular_item {
