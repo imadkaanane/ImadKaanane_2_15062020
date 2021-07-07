@@ -540,7 +540,7 @@ footer {
     flex-direction: column;
 }
 
-.footerbloc p {
+.footerbloc a {
     padding-top: 15px;
 }
 
